@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="Ie=edge" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, intial-scale=1.0" />
         <title>Home | Netflix</title>
-        <!--<link rel="stylesheet" href="home_page.css />"-->
-        <!--<script src="script2.js"></script> -->
+        <link rel="stylesheet" href="home_page.css" />
+         <script src="script1.js"></script>
     </head>
 
     <body>
@@ -14,10 +14,10 @@
         <div class="nav">
             <div class="nav__left">
                 <a href="index.html">
-                    <img class="nav_usericon" src="./images/usericon.png" alt=""></a>
+                    <img class="nav_logo" src="./images/Netflixlogo.png" alt=""></a>
             </div>
             <div class="nav__right">
-                <img src="./images/Netflixlogo.png" class="nav_Netflixlogo" alt="">
+                <img src="./images/usericon.png" class="nav_Netflixlogo" alt="">
             </div>
         </div>
 
@@ -32,7 +32,7 @@
                 </div>
                 <p div="banner__description"></p>
                 </div>
-                <div id="banner__fadeBotton"></div>
+                <div id="banner__fadeBottom"></div>
             </div>
         </header>
 
@@ -40,15 +40,15 @@
         <!--row-->
         <div id="headrow">
             <div class="row">
-                <h2 class="row_title"></h2>
-                <div class="row__posters"></div>
+                <h2 class="row__title"></h2>
+                <div class="row__posters"> </div>
             </div>
         </div>
 
         <script>
             window.addEventListener("scroll",function(){
 
-                var nav=document.querySelector(".nav");
+                var nav = document.querySelector(".nav");
                 nav.classList.toggle("active", window.scrollY > 0);
             })
         </script>
